@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 60px;
+    background-color: aqua;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+div {
+    width: calc(50% - 20px);
+    height: 200px;
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 10px 1px rgba(0, 5, 0, 0.5);
+    border: 1px solid greenyellow;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+div:hover {
+    transform: scale(1.05);
+}
+.item-1 {
+    background-image: url(/Users/Eddy/Desktop/TEL-RAN/FE43-44/project2/images/30.jpg);
+}
+.item-2 {
+    background-image: url(/Users/Eddy/Desktop/TEL-RAN/FE43-44/project2/images/2.jpg);
+}
+.item-3 {
+    background-image: url(/Users/Eddy/Desktop/TEL-RAN/FE43-44/project2/images/3.jpg);
+}
+.item-4 {
+    background-image: url(/Users/Eddy/Desktop/TEL-RAN/FE43-44/project2/images/4.jpg);
+}
+.item-5 {
+    background-image: url(/Users/Eddy/Desktop/TEL-RAN/FE43-44/project2/images/8.jpg);
+}
+.item-6 {
+    background-image: url(/Users/Eddy/Desktop/TEL-RAN/FE43-44/project2/images/17.jpg);
+}
+.item-7 {
+    background-image: url(/Users/Eddy/Desktop/TEL-RAN/FE43-44/project2/images/27.jpg);
+}
+.item-8 {
+    background-image: url(/Users/Eddy/Desktop/TEL-RAN/FE43-44/project2/images/1.jpg);
+}
